@@ -1,0 +1,144 @@
+.user {
+  flex: 4;
+  padding: 20px;
+}
+
+.userTopContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.userAddbtn {
+  width: 100px;
+  border: none;
+  padding: 10px 15px;
+  background-color: cornflowerblue;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.userMainContainer {
+  display: flex;
+  margin-top: 20px;
+}
+
+.userDetails {
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 25px 0.9px rgba(0, 0, 0, 0.1);
+}
+.userUpdate {
+  flex: 2;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0px 0px 25px 0.9px rgba(0, 0, 0, 0.1);
+  margin-left: 20px;
+}
+
+.userDetailsTop {
+  display: flex;
+  align-items: center;
+}
+.userDetailsTop img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.userDetailsTopInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.userDetailsTopUsername {
+  font-weight: 600;
+}
+
+.userDetailsTopTitle {
+  font-weight: 300;
+}
+.userDetailsMain {
+  margin-top: 20px;
+}
+
+.userDetailsMainTitle {
+  font-size: 17px;
+  font-weight: 600;
+  color: lightgrey;
+  margin-left: 10px;
+}
+
+.userDetailsMainInfo {
+  display: flex;
+  align-items: center;
+  margin: 30px 0px;
+  color: #444;
+}
+
+.userDetailsMainIcon {
+  margin-right: 10px;
+}
+
+.userDetailsMainHandle {
+  font-size: 16px;
+  font-weight: light;
+}
+.userUpdateTitle {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.userupdateItem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.userupdateItem label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.userUpdateInput {
+  border: none;
+  width: 350px;
+  height: 30px;
+  border-bottom: 2px solid grey;
+}
+.useUpdateForm {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.userUpdateRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.userUpdateUpload {
+  display: flex;
+  align-items: center;
+}
+.userUpdateIcon {
+  cursor: pointer;
+}
+.userUpdateBtn {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 7px;
+  cursor: pointer;
+  background-color: cornflowerblue;
+  color: white;
+  font-weight: bolder;
+}
+.userUpdateImg {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 20px;
+}
