@@ -1,0 +1,51 @@
+.newMovie {
+  flex: 4;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.addMovieForm {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.addMovieItem {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  padding: 25px;
+}
+
+.addMovieItem > label {
+  color: gray;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.addMovieItem > input {
+  padding: 10px;
+}
+
+.addMovieItem > select {
+  padding: 10px;
+}
+
+.addMovieButton {
+  width: 150px;
+  height: 40px;
+  margin-top: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: cornflowerblue;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  align-self: center;
+}
+:disabled {
+  background-color: grey;
+  cursor: not-allowed;
+}
