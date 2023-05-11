@@ -1,0 +1,18 @@
+.listOfList {
+  flex: 4;
+}
+
+.listOfListEdit{
+  margin-right: 20px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #eeeef7;
+  color: #555;
+  cursor: pointer;
+}
+
+.listOfListDelete {
+  color: #eb5454;
+  cursor: pointer;
+}
