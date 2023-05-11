@@ -15,7 +15,6 @@ import {
 } from "./UserActions";
 
 const baseUrl = process.env.REACT_APP_SERVER_URL;
-const registerUrl = process.env.REACT_APP_REGISTER_URL;
 
 //Get Users
 export const getUsers = async (dispatch) => {
@@ -36,7 +35,7 @@ export const getUsers = async (dispatch) => {
 export const createUser = async (user, dispatch) => {
   dispatch(createUserStart());
   try {
-    const res = await axios.post(registerUrl,user);
+    const res = await axios.post(baseUrl + "auth/register", user);
     dispatch(createUserSuccess(res.data));
   } catch {
     dispatch(createUserFailure());
@@ -53,8 +52,8 @@ export const updateUser = async (id, user, dispatch) => {
       },
     });
     dispatch(updateUserSuccess(res.data));
-  } catch(error) {
-    console.log(error)
+  } catch (error) {
+    console.log(error);
     dispatch(updateUserFailure());
   }
 };
