@@ -1,0 +1,54 @@
+.newList {
+  flex: 4;
+  margin-left: 50px;
+}
+
+.addListForm {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.addListItem {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  padding: 25px;
+}
+
+.addListItem > label {
+  color: gray;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.addListItem > input {
+  padding: 10px;
+}
+
+.addListItem > select {
+  padding: 10px;
+}
+.addListSelect {
+  padding: 10px;
+  height: 300px;
+}
+
+.addListButton {
+  width: 150px;
+  height: 40px;
+  margin-top: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: cornflowerblue;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  margin: auto;
+}
+:disabled {
+  background-color: grey;
+  cursor: not-allowed;
+}
