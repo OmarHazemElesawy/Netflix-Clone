@@ -1,0 +1,144 @@
+.list {
+  flex: 4;
+  padding: 20px;
+}
+.listTopContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.listAddbtn {
+  width: 150px;
+  border: none;
+  padding: 10px 15px;
+  background-color: cornflowerblue;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.listMain {
+  display: flex;
+}
+
+.listMainLeft,
+.listMainRight {
+  flex: 1;
+}
+
+.listMainRight {
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0px 0px 25px 0.9px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.listInfoImg {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.listInfoTop {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.listName {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.listInfoKey {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.listInfoItem {
+  width: 300px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.listBottom {
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0px 0px 25px 0.9px rgba(0, 0, 0, 0.1);
+}
+
+.listForm {
+  display: flex;
+  justify-content: space-between;
+}
+
+.listFormLeft {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.listFormLeft label {
+  margin-bottom: 10px;
+  color: rgb(78, 77, 77);
+}
+
+.listFormLeft input {
+  border: none;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-bottom: 2px solid gray;
+  width: 300px;
+}
+
+.listImg {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.listFormMiddle {
+  flex: 1;
+}
+
+.listFormRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.listUpload {
+  display: flex;
+  align-items: center;
+}
+.listBtn {
+  width: 200px;
+  border: none;
+  padding: 5px 10px;
+  background-color: cornflowerblue;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.addListItem > select {
+  margin-top: 10px;
+  height: 200px;
+  width: 200px;
+  padding: 10px;
+}
+.addListSelect {
+  padding: 10px;
+  height: 300px;
+}
