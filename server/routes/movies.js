@@ -45,9 +45,6 @@ router.get(
       ]);
       }
       res.json(randSample);
-    // } else {
-    //   throw new ExpressError("You are not authorized to use this route", 403);
-    // }
   })
 );
 
