@@ -1,0 +1,31 @@
+.movieList {
+  flex: 4;
+}
+
+.movieListUser{
+  display: flex;
+  align-items: center;
+}
+
+.movieListMovieImg{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.movieListEdit{
+  margin-right: 20px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #eeeef7;
+  color: #555;
+  cursor: pointer;
+}
+
+.movieListDelete {
+  color: #eb5454;
+  cursor: pointer;
+}
