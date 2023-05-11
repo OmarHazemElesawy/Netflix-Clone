@@ -8,11 +8,13 @@ import axios from "axios";
 const Home = ({ type }) => {
   const [lists, setLists] = useState([]);
   const [genre, setGenre] = useState(null);
+  const baseUrl = process.env.REACT_APP_BASE_URL;
+
   useEffect(() => {
     const getRandomLists = async () => {
       try {
         const res = await axios.get(
-          `lists${type ? "?type=" + type : ""}${
+          `${baseUrl}/lists${type ? "?type=" + type : ""}${
             genre ? "&genre=" + genre : ""
           }`,
           {

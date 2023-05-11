@@ -6,12 +6,13 @@ import { Link } from "react-router-dom";
 const Featured = (props) => {
   const { type, setGenre } = props;
   const [feature, setFeature] = useState({});
+  const baseUrl = process.env.REACT_APP_BASE_URL;
 
   useEffect(() => {
     const getRandomFeature = async () => {
       try {
         const res = await axios.get(
-          `/movies/random${type ? "?type=" + type : ""}`,
+          `${baseUrl}/movies/random${type ? "?type=" + type : ""}`,
           {
             headers: {
               token:
@@ -52,7 +53,6 @@ const Featured = (props) => {
             <option value="Drama">Drama</option>
             <option value="Documentary">Documentary</option>
           </select>
-          
         </div>
       )}
       <img src={feature.mainImg} alt="" />
