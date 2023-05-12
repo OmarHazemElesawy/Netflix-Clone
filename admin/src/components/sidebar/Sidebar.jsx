@@ -45,7 +45,7 @@ const Sidebar = () => {
         <div className={classes.sidebarMenu}>
           <h4 className={classes.sidebarTitle}>Movies</h4>
           <ul className={classes.sidebarList}>
-            <Link className={classes.sidebarLink} to="/movies/movies">
+            <Link className={classes.sidebarLink} to="/movies/movie">
               <li className={classes.sidebarItem}>
                 <Movie className={classes.sidebarIcon} />
                 Movies List
