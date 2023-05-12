@@ -6,7 +6,6 @@ import {
 } from "@mui/icons-material";
 import Item from "../item/Item";
 const List = ({list}) => {
-  list.content = list.content.sort((a, b) => 0.5 - Math.random());
   const [itemNumber, setItemNumber] = useState(0);
   const [isClicked, setIsClicked] = useState(false);
   const listRef = useRef();

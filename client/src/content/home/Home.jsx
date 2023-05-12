@@ -25,13 +25,16 @@ const Home = ({ type }) => {
             },
           }
         );
+        res.data.map((list) =>
+          list.content.sort((a, b) => 0.5 - Math.random())
+        );
         setLists(res.data);
       } catch (err) {
         console.log(err);
       }
     };
     getRandomLists();
-  }, [type, genre]);
+  }, [type, genre, baseUrl]);
   return (
     <div className="home">
       <Navbar />
