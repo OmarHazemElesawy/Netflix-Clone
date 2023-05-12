@@ -1,5 +1,5 @@
 import "./login.scss";
-import logo from "../../images/netflix_logo.svg";
+import logo from "../../images/netflix_logo.png";
 import { useState, useContext, useEffect } from "react";
 import { AuthContext } from "../../store/authContext/AuthContext";
 import { login } from "../../store/authContext/apiCalls";

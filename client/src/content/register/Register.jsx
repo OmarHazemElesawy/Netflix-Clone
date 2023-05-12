@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 import "./register.scss";
-import logo from "../../images/netflix_logo.svg";
+import logo from "../../images/netflix_logo.png";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
 import profileImg from "../../images/neflix_profile.png";

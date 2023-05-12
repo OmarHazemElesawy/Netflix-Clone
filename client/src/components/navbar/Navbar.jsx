@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import "./navbar.scss";
-import logo from "../../images/netflix_logo.svg";
+import logo from "../../images/netflix_logo.png";
 import { Search, Notifications, ArrowDropDown } from "@mui/icons-material";
 import profileIcon from "../../images/neflix_profile.png";
 import { Link } from "react-router-dom";
