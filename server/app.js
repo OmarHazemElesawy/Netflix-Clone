@@ -63,6 +63,6 @@ app.use((err, _req, res, _next) => {
   res.status(status).json(message);
 });
 //connection port 8000
-app.listen(process.env.PORT, () => {
-  console.log(`Backend running on port ${process.env.PORT}`);
+app.listen(process.env.PORT || 8000, () => {
+  console.log(`Backend running on port ${process.env.PORT || 8000}`);
 });
