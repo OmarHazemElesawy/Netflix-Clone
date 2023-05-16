@@ -1,6 +1,6 @@
 # Fakeflix, The Netflix Clone MERN Stack Project
 
-Links to the project:
+Links to fakeflix and client websites:
 
 1. [Fakeflix](https://streamflix-client.onrender.com).
 2. [Admin](https://streamflix-admin.onrender.com).
