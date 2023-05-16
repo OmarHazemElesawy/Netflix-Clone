@@ -100,7 +100,7 @@ const User = () => {
               alt="user"
             />
             <div className={classes.userDetailsTopInfo}>
-              <span className={classes.userDetailsTopUsername}>Jane Doe</span>
+              <span className={classes.userDetailsTopUsername}>User Data:</span>
             </div>
           </div>
           <div className={classes.userDetailsMain}>
