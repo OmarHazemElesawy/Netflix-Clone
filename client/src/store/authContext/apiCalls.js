@@ -1,7 +1,7 @@
 import axios from "axios";
 import { loginFailure, loginStart, loginSuccess } from "./AuthActions";
 export const login = async (user, dispatch) => {
-  const loginUrl =  process.env.REACT_APP_LOGIN_URL;
+  const loginUrl =  process.env.REACT_APP_BASE_URL + "/auth/login";
   dispatch(loginStart());
   try {
     console.log("loginUrl",loginUrl)

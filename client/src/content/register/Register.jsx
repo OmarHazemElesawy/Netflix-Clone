@@ -13,7 +13,7 @@ const Register = () => {
   const emailRef = useRef();
   const [modalMessage, setModalMessage] = useState(null);
   const navigate = useNavigate();
-  const registerUrl = process.env.REACT_APP_REGISTER_URL;
+  const registerUrl = process.env.REACT_APP_BASE_URL + "/auth/register";
 
   const validateInput = (username, password) => {
     let isValid = true;
