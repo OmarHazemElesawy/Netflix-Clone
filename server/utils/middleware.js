@@ -5,7 +5,7 @@ const ExpressError = require("../utils/ExpressError");
 const verifyUser = (req, res, next) => {
   const userJwtHeader = req.headers.token;
   if (!userJwtHeader)
-    throw new ExpressError("You Are not authenticated to Update", 401);
+    throw new ExpressError("You Are not authorized", 401);
   const token = userJwtHeader.split(" ")[1];
   jwt.verify(token, process.env.JWT_KEY, (err, user) => {
     if (err) throw new ExpressError("Token not valid", 403);
