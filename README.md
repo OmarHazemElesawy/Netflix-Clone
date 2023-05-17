@@ -74,10 +74,6 @@ The project consists of three parts:
 - CRUD operations for movie lists and series lists.
 - CRUD operations for users.
 - Use of Render for deployment.
--------------------------------
-- To test out the deployed admin website, these are login credentials to test with:
-  - email: test@admin.com 
-  - password: TestAdmin
 ## Installation:
 
 1. Server-side:
@@ -114,6 +110,10 @@ The project consists of three parts:
     9. add your firebase measurement id (REACT_APP_FIREBASE_MEASUREMENT_ID)
     10. port number of your choice (PORT)
 - Run the server using `npm start`.
+-----------------------------------
+- To test out the deployed admin website, these are login credentials to test with:
+  - email: test@admin.com 
+  - password: TestAdmin
 
 ## Screenshots:
 1. Fakeflix:
