@@ -74,6 +74,7 @@ The project consists of three parts:
 - CRUD operations for movie lists and series lists.
 - CRUD operations for users.
 - Use of Render for deployment.
+
 ## Installation:
 
 1. Server-side:
