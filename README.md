@@ -158,7 +158,6 @@ The project consists of three parts:
     ![User page](/admin/assets/user.png)
     13. New user page:
     ![New user page](/admin/assets/New_user.png)
-
 ## 🤝 Support
 
 Contributions, issues, and feature requests are welcome!
