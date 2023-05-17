@@ -130,37 +130,37 @@ The project consists of three parts:
     ![Movies Page](/client/assets/Movies.png)
     5. Series Page:
     ![Series Page](/client/assets/Series.png)
-    6. video player Page:
+    6. Video player Page:
     ![Watch Page](/client/assets/video.png)
 2. Admin website:
-    2. Home Page:
+    1. Home Page:
     ![Home Page 1](/admin/assets/Homepage_1.png)
     ![Home Page 2](/admin/assets/Homepage_2.png)
-    3. Movies list page:
+    2. Movies list page:
     ![Movies list page](/admin/assets/Movies_list.png)
-    4. movie page:
+    3. Movie page:
     ![movie page 1](/admin/assets/Movie_1.png)
     ![movie page 2](/admin/assets/Movie_2.png)
-    5. New movie page:
+    4. New movie page:
     ![New movie page](/admin/assets/Add_movie.png)
-    6. Series list page:
+    5. Series list page:
     ![Series list page 1](/admin/assets/Series_list_1.png)
     ![Series list page 2](/admin/assets/Series_list_2.png)
-    7. Series page:
+    6. Series page:
     ![Series page 1](/admin/assets/Series_1.png)
     ![Series page 2](/admin/assets/Series_2.png)
-    8. New series page:
+    7. New series page:
     ![New series page](/admin/assets/Add_movie.png)
-    9. List page:
+    8. List page:
     ![Movies List page](/admin/assets/List_of_movies.png)
     ![Series List page](/admin/assets/List_of_series.png)
-    10. New list page:
+    9. New list page:
     ![New list page](/admin/assets/New_list.png)
-    11. User list page:
+    10. User list page:
     ![User list page](/admin/assets/user_list.png)
-    12. User page:
+    11. User page:
     ![User page](/admin/assets/user.png)
-    13. New user page:
+    12. New user page:
     ![New user page](/admin/assets/New_user.png)
 ## 🤝 Support
 
