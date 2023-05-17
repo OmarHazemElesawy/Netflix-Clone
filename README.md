@@ -112,8 +112,9 @@ The project consists of three parts:
 - Run the server using `npm start`.
 -----------------------------------
 - To test out the deployed admin website, these are login credentials to test with:
-  - email: test@admin.com 
-  - password: TestAdmin
+  - Email: test@admin.com 
+  - Password: TestAdmin
+-----------------------------------
 
 ## Screenshots:
 1. Fakeflix:
