@@ -3,7 +3,7 @@
 Links to fakeflix and client websites:
 
 1. [Fakeflix](https://streamflix-client.onrender.com).
-2. [Admin](https://streamflix-admin.onrender.com).
+2. [Admin Page](https://streamflix-admin.onrender.com).
 
 ## Inroduction:
 
@@ -157,10 +157,6 @@ The project consists of three parts:
     12. User page:
     ![User page](/admin/assets/user.png)
     13. New user page:
-<<<<<<< HEAD
-    ![New user page](/admin/assets/new_user.png)
-    
-=======
     ![New user page](/admin/assets/New_user.png)
 
 
