@@ -70,11 +70,11 @@ The project consists of three parts:
 - Use of React Hooks and React Context API for state management.
 - Use of React Router DOM for routing.
 - Use of Axios for HTTP requests.
-- Use of firebase for storing images, trailers and videos.
-- Use of Render for deployment.
+- Use of firebase for uploading, storing and retreiving images, trailers and videos.
 - CRUD operations for movies and series.
 - CRUD operations for movie lists and series lists.
 - CRUD operations for users.
+- Use of Render for deployment.
 
 ## Installation:
 
@@ -159,12 +159,7 @@ The project consists of three parts:
     ![User page](/admin/assets/user.png)
     13. New user page:
     ![New user page](/admin/assets/new_user.png)
-
-
-
-
-
-
+    
 ## 🤝 Support
 
 Contributions, issues, and feature requests are welcome!
