@@ -143,7 +143,7 @@ The project consists of three parts:
     ![Series list page 1](/admin/assets/Series_list_1.png)
     ![Series list page 2](/admin/assets/Series_list_2.png)
     7. Series page:
-    ![Series page 1](/admin/assets/Series_2.png)
+    ![Series page 1](/admin/assets/Series_1.png)
     ![Series page 2](/admin/assets/Series_2.png)
     8. New series page:
     ![New series page](/admin/assets/Add_movie.png)
